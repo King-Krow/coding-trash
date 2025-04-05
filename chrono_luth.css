@@ -1,0 +1,27 @@
+/*FOND CHRONO*/ .chrono {margin: 0 auto; width: 450px; height: 450px; background-color: #ffffff; background-image: url("https://www.zupimages.net/up/16/35/vqad.png"); position: relative;} /***
+
+TITRE***/ .chrono h1 {margin: 10px auto 0; width: 180px; height: 15px; background: #feda84; font-size: 30px; color: #ee5d6c; font-family: 'Bubblegum Sans', cursive; text-shadow: 1px 1px 0px #ffffff; text-transform: uppercase; font-weight: normal; font-style: italic; line-height: 10px; text-align: center;} .chrono h2 {font-size: 20px; color: #fb9062; text-shadow: 1px 1px 0px #feda84; font-style: italic; float: right; margin: 5px;} .compteur {position: absolute; top: 20px; right: 90px; font-size: 15px; font-weight: bold; text-align: center;}
+
+/***COPYRIGHT***/ .chrono h3 {position: absolute; bottom: 5px; width: 100%; font-size: 9px; color: #685489; font-weight: normal; text-align: center;} /***
+
+LIENS***/ .chrono a{color: #ee5d6c;} .chrono a:hover{color: #feda84;}/***
+
+FOND***/ .chrono_fond {width: 400px; height: 385px; background: #ffffff; border-bottom: 5px solid #fb9062; padding: 8px; margin: 0 25px; box-sizing: border-box; font-size: 12px; color: #685489; text-align: justify; overflow: auto; position: absolute; top: 25px;} .chrono_fond br {display: none;}
+
+/***CARTOUCHE RP***/ .cartouche {display: inline-block; width: 100%; padding: 5px; box-sizing: border-box; text-align: center;} .texte_rp {color: #685489;  vertical-align: -15px; font-size: 14px;} .date {position: absolute; width: 50%; padding-left: 80px;} .hr_rp {width: 35%; border: 1px solid #0000; border-top: 1px solid #fb9062;} .hraled {margin-top: -5px; margin-bottom: 10px;}
+
+/***ICONES***/ .icone {width: 50px; height: 50px; object-fit: cover; border: 2px solid #ee5d6c; border-radius: 50%;} .gauche {float: left;} .droite {float: right; transform: rotateY(180deg); border-color: #685489;} .pabokou {position: relative; z-index: 1;} .bokou {position: relative; top: -20px; right: -30px; border-color: #fb9062;} .bokou:hover {z-index: 1;} .bokou2 {position: relative; top: -15px; left: 80px; border-color: #feda84;} .bokou2:hover {z-index: 1;} .aled {margin-left:54px;}
+		/***
+Flex layout is required to allow usage of order ***/
+.tabs {display: flex; flex-wrap: wrap;} .tabs br {display: none;}/***
+
+Hide the radio inputs ***/ .tabs input[type="radio"] {display: none;}/***
+
+Style the labels (tabs) ***/ .tabs label {cursor: pointer; display: inline-block; position: relative; z-index: 1; width: 25%; height: 30px; line-height: 30px; padding: 5px auto; box-sizing: border-box; background: linear-gradient(-150deg, #feda84 61%, #fb9062 61%, #fb9062 66%, #feda84 66%, #feda84 71%, #fb9062 71%);
+font-family: 'Bubblegum Sans', cursive; color: #685489; text-shadow: 1px 1px 0px #fb9062; font-size: 20px; font-weight: bold; text-transform: uppercase; text-align: center; order: 1;} .tabs label:hover {background: linear-gradient(-150deg, #685489 61%, #fb9062 61%, #fb9062 66%, #685489 66%, #685489 71%, #fb9062 71%); color: #feda84; text-shadow: 1px 1px 0px #ee5d6c;}
+
+/***Style the content sections PAS TOUCHER LES 2 À LA SUITE ***/ .tabs .tab-content {display: none; padding: 1rem; order: 99;}/***
+
+Display content when a tab is selected ***/ .tabs input[type="radio"]:checked + label + .tab-content {display: block;}/***
+
+Highlight selected tab***/ .tabs input[type="radio"]:checked + label {height: 35px; background: linear-gradient(-150deg, #685489 61%, #ee5d6c 61%, #ee5d6c 66%, #685489 66%, #685489 71%, #ee5d6c 71%); color: #feda84; text-shadow: 1px 1px 0px #fb9062; border-radius: 0 0 5px 5px;}

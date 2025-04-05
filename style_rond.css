@@ -1,0 +1,6 @@
+.icone_rond {
+    width: 31px; height: auto; padding: 5px; margin: 3px; background: linear-gradient(150deg, #feda84 61%, #fb9062 61%, #fb9062 66%, #feda84 66%, #feda84 71%, #fb9062 71%); border-radius: 50%; cursor: pointer; transition: transform .2s;
+}
+.icone_rond:hover {
+    background: linear-gradient(150deg, #685489 61%, #fb9062 61%, #fb9062 66%, #685489 66%, #685489 71%, #fb9062 71%); transform: rotate(15deg);
+}
