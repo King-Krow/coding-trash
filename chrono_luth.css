@@ -8,9 +8,9 @@ LIENS***/ .chrono a{color: #ee5d6c;} .chrono a:hover{color: #feda84;}/***
 
 FOND***/ .chrono_fond {width: 400px; height: 385px; background: #ffffff; border-bottom: 5px solid #fb9062; padding: 8px; margin: 0 25px; box-sizing: border-box; font-size: 12px; color: #685489; text-align: justify; overflow: auto; position: absolute; top: 25px;} .chrono_fond br {display: none;}
 
-/***CARTOUCHE RP***/ .cartouche {display: inline-block; width: 100%; padding: 5px; box-sizing: border-box; text-align: center;} .texte_rp {color: #685489;  vertical-align: -15px; font-size: 14px;} .date {position: absolute; width: 50%; padding-left: 80px;} .hr_rp {width: 35%; border: 1px solid #0000; border-top: 1px solid #fb9062;} .hraled {margin-top: -5px; margin-bottom: 10px;}
+/***CARTOUCHE RP***/ .cartouche {display: inline-block; width: 100%; padding: 5px; box-sizing: border-box; text-align: center;} .texte_rp {color: #685489;  vertical-align: -17px; font-size: 14px;} .date {position: absolute; width: 50%; padding-left: 80px;} .hr_rp {width: 35%; border: 1px solid #0000; border-top: 1px solid #fb9062;} .hraled {margin-top: -5px; margin-bottom: 10px;}
 
-/***ICONES***/ .iconel {width: 50px; height: 50px; object-fit: cover; border: 2px solid #ee5d6c; border-radius: 50%;} .gauchel {float: left;} .droitel {float: right; transform: rotateY(180deg); border-color: #685489;} .pabokou {position: relative; z-index: 1;} .aled {margin-left:45px;} .bokou {position: relative; top: -5px; right: -30px; border-color: #fb9062;} .bokou:hover {z-index: 1;} .bokou2 {position: relative; top: -35px; left: 85px; border-color: #feda84;} .bokou2:hover {z-index: 1;}
+/***ICONES***/ .iconel {width: 50px; height: 50px; object-fit: cover; border: 2px solid #ee5d6c; border-radius: 50%;} .gauchel {float: left;} .droitel {float: right; transform: rotateY(180deg); border-color: #685489;} .pabokou {position: relative; z-index: 1;} .aled {margin-left:45px;} .bokou {position: relative; top: -1px; right: -30px; border-color: #fb9062;} .bokou:hover {z-index: 1;} .bokou2 {position: relative; top: -35px; left: 85px; border-color: #feda84;} .bokou2:hover {z-index: 1;}
 		/***
 Flex layout is required to allow usage of order ***/
 .tabs {display: flex; flex-wrap: wrap;} .tabs br {display: none;}/***
