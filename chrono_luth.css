@@ -10,7 +10,7 @@ FOND***/ .chrono_fond {width: 400px; height: 385px; background: #ffffff; border-
 
 /***CARTOUCHE RP***/ .cartouche {display: inline-block; width: 100%; padding: 5px; box-sizing: border-box; text-align: center;} .texte_rp {color: #685489;  vertical-align: -15px; font-size: 14px;} .date {position: absolute; width: 50%; padding-left: 80px;} .hr_rp {width: 35%; border: 1px solid #0000; border-top: 1px solid #fb9062;} .hraled {margin-top: -5px; margin-bottom: 10px;}
 
-/***ICONES***/ .icone {width: 50px; height: 50px; object-fit: cover; border: 2px solid #ee5d6c; border-radius: 50%;} .gauche {float: left;} .droite {float: right; transform: rotateY(180deg); border-color: #685489;} .pabokou {position: relative; z-index: 1;} .bokou {position: relative; top: -10px; right: -130px; border-color: #fb9062;} .bokou:hover {z-index: 1;} .bokou2 {position: relative; top: -20px; left: 170px; border-color: #feda84;} .bokou2:hover {z-index: 1;} .aled {margin-left:50px;}
+/***ICONES***/ .icone {width: 50px; height: 50px; object-fit: cover; border: 2px solid #ee5d6c; border-radius: 50%;} .gauche {float: left;} .droite {float: right; transform: rotateY(180deg); border-color: #685489;} .pabokou {position: relative; z-index: 1;} .bokou {position: relative; top: -10px; right: -130px; border-color: #fb9062;} .bokou:hover {z-index: 1;} .bokou2 {position: relative; top: -20px; left: 170px; border-color: #feda84;} .bokou2:hover {z-index: 1;} .aled {margin-left:150px;}
 		/***
 Flex layout is required to allow usage of order ***/
 .tabs {display: flex; flex-wrap: wrap;} .tabs br {display: none;}/***
