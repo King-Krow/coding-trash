@@ -1,0 +1,49 @@
+.rond_nana {
+    width: 31px;
+    height: auto;
+    padding: 5px;
+    margin: 3px;
+    background: #EEA63B;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rond_nana:hover {
+    transform: rotate(15deg);
+    animation: bounce 0.25s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 1, 0.05, .5);
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    from {
+    	transform: translate3d(0, 0, 0);
+    }
+
+    to {
+    	transform: translate3d(0, -10px, 0);
+    }
+}
+
+        /* Prefix Support */
+
+ball {
+	-webkit-animation-name: bounce;
+    -webkit-animation-duration: 0.3s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: cubic-bezier(.5, 1, 0.05, .5);
+    -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+    from {
+    	-webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        -webkit-transform: translate3d(0, -10px, 0);
+        transform: translate3d(0, -10px, 0);
+    }
+}
