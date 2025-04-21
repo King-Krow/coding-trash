@@ -1,0 +1,46 @@
+/* Fond résumé des rp */ .fondscribe {margin: 0 auto; width: 450px; height: 450px; background-color: #ffffff; background-image: url("https://www.zupimages.net/up/16/35/vqad.png");}
+
+.hr_rp {width: 35%; border: 1px solid #0000; border-top: 1px solid #fb9062; padding: 5px;}
+
+		/* Flex layout is required to allow usage of order */
+		.luthscribe {display: flex; flex-wrap: wrap;}
+
+		/* Hide the radio inputs */
+		.luthscribe input[type="radio"] {display: none;}
+
+		/* Style the labels (tabs) */
+		.luthscribe label {
+			display: block; order: 1; width: 70px; height: 30px; line-height: 30px; text-align: center; box-sizing: border-box; font-family: 'Bubblegum Sans', cursive; color: #fb9062; text-shadow: 1px 1px 0px #ee5d6c; font-size: 20px; font-weight: bold; text-transform: uppercase; background: #feda84;} .luthscribe label:hover {background: #ee5d6c; color: #feda84; text-shadow: 1px 1px 0px #685489;}
+
+        .textscribe {position: absolute; left: 133px; width: 440px; height: 425px; z-index: 1; box-sizing: border-box; padding: 5px 15px; margin: 15px auto; border-bottom: 5px solid #fb9062; overflow: auto; font-size: 12px; color: #685489; background-color: #ffffff; text-align: justify;}
+
+        .fondscribe h1 {font-size: 15px; line-height: 5px; text-align: center; font-family: 'Bubblegum Sans', cursive; font-weight: normal;}
+        .fondscribe h2 {font-size: 12px; text-align: center; line-height: 3px; font-weight: normal; font-style: italic;}
+        .fondscribe h4 {font-size: 12px; text-align: right; font-weight: 100;}
+
+        label[for="scribe00"] {position: relative; left: -55px;}
+        label[for="scribe0"] {position: absolute; top: 38px; left: 73px;}
+		label[for="scribe1"] {position: absolute; top: 68px; left: 73px;}
+        label[for="scribe2"] {position: absolute; top: 98px; left: 73px;}
+		label[for="scribe3"] {position: absolute; top: 128px; left: 73px;}
+		label[for="scribe4"] {position: absolute; top: 158px; left: 73px;}
+		label[for="scribe5"] {position: absolute; top: 188px; left: 73px;}
+		label[for="scribe6"] {position: absolute; top: 218px; left: 73px;}
+
+        /* Style the content sections */
+		.luthscribe .luthscribe-content {
+			display: none;
+			order: 99;
+		}
+
+		/* Display content when a tab is selected */
+		.luthscribe input[type="radio"]:checked + label + .luthscribe-content {
+			display: block;
+		}
+
+		/* Highlight selected tab */
+		.luthscribe input[type="radio"]:checked + label {
+			background-color: #685489; color: #feda84; text-shadow: 1px 1px 0px #ee5d6c; z-index: 2;
+		}
+
+        /***COPYRIGHT***/ .fondscribe h3 {position: relative; bottom: -405px; width: 100%; font-size: 9px; color: #685489; font-weight: normal; text-align: center;}
