@@ -19,13 +19,13 @@
 .fondscribe h4 {font-size: 12px; color: #fb9062; text-align: right; font-weight: 100;}
 
 label[for="scribe00"] {position: relative; left: -55px;}
-label[for="scribe0"] {position: relative; top: 38px; left: 73px;}
-label[for="scribe1"] {position: relative; top: 68px; left: 73px;}
-label[for="scribe2"] {position: relative; top: 98px; left: 73px;}
-label[for="scribe3"] {position: relative; top: 128px; left: 73px;}
-label[for="scribe4"] {position: relative; top: 158px; left: 73px;}
-label[for="scribe5"] {position: relative; top: 188px; left: 73px;}
-label[for="scribe6"] {position: relative; top: 218px; left: 73px;}
+label[for="scribe0"] {position: relative; top: 38px;}
+label[for="scribe1"] {position: relative; top: 68px;}
+label[for="scribe2"] {position: relative; top: 98px;}
+label[for="scribe3"] {position: relative; top: 128px;}
+label[for="scribe4"] {position: relative; top: 158px;}
+label[for="scribe5"] {position: relative; top: 188px;}
+label[for="scribe6"] {position: relative; top: 218px;}
 
         /* Style the content sections */
 .luthscribe .luthscribe-content {
