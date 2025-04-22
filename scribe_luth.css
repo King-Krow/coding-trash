@@ -11,7 +11,7 @@
 		/* Style the labels (tabs) */
 .luthscribe label {display: block; order: 1; position: relative; top: -60px; left: -55px; width: 70px; height: 30px; line-height: 30px; text-align: center; box-sizing: border-box; font-family: 'Bubblegum Sans', cursive; color: #fb9062; text-shadow: 1px 1px 0px #ee5d6c; font-size: 20px; font-weight: bold; text-transform: uppercase; background: #feda84;} .luthscribe label:hover {background: #ee5d6c; color: #feda84; text-shadow: 1px 1px 0px #685489;}
 
-.textscribe {position: relative; right: 65px; width: 435px; height: 425px; z-index: 1; box-sizing: border-box; padding: 5px 15px; margin: 10px auto; border-bottom: 5px solid #ee5d6c; overflow: auto; font-size: 12px; color: #685489; background-color: #ffffff; text-align: justify;}
+.textscribe {position: relative; right: 65px; width: 435px; height: 425px; z-index: 1; box-sizing: border-box; padding: 5px 15px; margin: 5px auto 15px; border-bottom: 5px solid #ee5d6c; overflow: auto; font-size: 12px; color: #685489; background-color: #ffffff; text-align: justify;}
 
 .fondscribe h1 {font-size: 15px; color: #ee5d6c; line-height: 5px; text-align: center; font-family: 'Bubblegum Sans', cursive; font-weight: normal;}
 .fondscribe h2 {font-size: 12px; color: #fb9062; text-align: center; line-height: 3px; font-weight: normal; font-style: italic;}
