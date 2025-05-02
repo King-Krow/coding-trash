@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "ThunderKingdom";
+	src: url("https://King-Krow.github.io/coding-trash/Thunder%20Kingdom.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ely-corps {
+	width: 90%;
+    padding-bottom: 3px;
+    margin: 20px;
+    box-sizing: border-box;
+   	text-align: center;
+    border-bottom: 5px solid #373045;
+    background: #CDCFDB;
+    border-radius: 15px;
+}
+
+.ely-tup {
+	position: relative;
+}
+
+#ely-ban {
+	width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+}
+
+#ely-sion {
+	width: 40%;
+    margin: auto;
+    box-sizing: border-box;
+	text-align: center;
+    position: relative;
+    top: 30px;
+    z-index: 2;
+}
+
+.ely-titre {
+	width: 200px;
+	margin-left: 250px;
+    margin-top: 20px;
+    position: relative;
+    top: -85px;
+    left: 23px;
+    z-index: 2;
+}
+
+h2 {
+	padding-left: 3px;
+    box-sizing: border-box;
+    z-index: 2;
+    font: 30px "ThunderKingdom", serif;
+	text-align: left;
+	color: #FFFFFF;
+    text-shadow: #5FB3E7 2px 3px;
+}
+
+.ely-typo {
+	font-family: "Courier New";
+    font-weight: bold;
+}
+
+.ely-butt {
+	width: 25%;
+    padding: 10px;
+	margin: 0px 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+	color: white;
+    border: 2px solid #d5af41;
+    background: #373045;
+    font: small-caps bold 18px "ThunderKingdom";
+    text-decoration: none;
+}
+
+.ely-butt:hover {
+	text-shadow: 1px 1px #373045;
+    border: 2px solid #d5af41;
+    background: #9fae63;
+}
+
+.ely-txt {
+	width: 95%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 5px 15px;
+    margin: auto;
+    z-index: 1;
+    border-left: 4px double #d5af41;
+    border-right: 4px double #d5af41;
+	text-align: justify;
+    color: #373045;
+    background-color: rgba(255,255,255, 0.9);
+}
+
+.ely-txt a {
+	color: #5FB3E7;
+    text-decoration: none;
+}
+.ely-txt a:visited {
+	color: #9fae63;
+}
+.ely-txt a:hover {
+	font-weight: bold;
+}
+
+.ely-staff {
+	text-align: right;
+	color: #d5af41;
+}
+
+.ely-cred {
+	color: white;
+    text-shadow: 1px 1px #5FB3E7;
+    font-size: 12px;
+}
+
+.fa-brands {
+	color: #9fae63;
+}
+.fa-brands:hover {
+	color: #d5af41;
+}
