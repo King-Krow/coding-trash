@@ -88,9 +88,9 @@
     background-color: rgba(255,255,255, 0.9);
 }
 
-a.luth-ely-txt {color: #5FB3E7; text-decoration: none;}
-a.luth-ely-txt:visited {color: #9fae63;}
-a.luth-ely-txt:hover {font-weight: bold;}
+a.luth-ely-txt a {color: #5FB3E7; text-decoration: none; font-weight: normal;}
+a.luth-ely-txt a:visited {color: #9fae63;}
+a.luth-ely-txt a:hover {font-weight: bold;}
 
 .luth-ely-staff {text-align: right; color: #d5af41;}
 
