@@ -4,9 +4,7 @@
 }
 
 
-.luth-ely-corps {
-	width: 90%;
-	max-width: 500px;
+.luth-ely-corps {max-width: 600px;
     padding-bottom: 3px;
     margin: 20px;
     box-sizing: border-box;
@@ -39,11 +37,9 @@
 
 .luth-ely-titre {
 	width: 200px;
-	margin-left: 250px;
-    margin-top: 20px;
     position: relative;
     top: -85px;
-    left: 23px;
+    left: 270px;
     z-index: 2;
 }
 
@@ -61,7 +57,7 @@
 
 .luth-ely-butt {width: 25%;
     padding: 10px;
-	margin: 0px 10px 20px;
+	margin: 20px 10px;
     display: inline-block;
     vertical-align: middle;
 	color: white;
