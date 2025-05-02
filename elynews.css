@@ -6,6 +6,7 @@
 
 .luth-ely-corps {
 	width: 90%;
+	max-width: 500px;
     padding-bottom: 3px;
     margin: 20px;
     box-sizing: border-box;
