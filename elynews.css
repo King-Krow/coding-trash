@@ -6,7 +6,7 @@
 }
 
 
-.ely-corps {
+.luth-ely-corps {
 	width: 90%;
     padding-bottom: 3px;
     margin: 20px;
@@ -17,11 +17,11 @@
     border-radius: 15px;
 }
 
-.ely-tup {
+.luth-ely-tup {
 	position: relative;
 }
 
-#ely-ban {
+#luth-ely-ban {
 	width: 100%;
     margin: auto;
     box-sizing: border-box;
@@ -31,7 +31,7 @@
     z-index: 1;
 }
 
-#ely-sion {
+#luth-ely-sion {
 	width: 40%;
     margin: auto;
     box-sizing: border-box;
@@ -41,7 +41,7 @@
     z-index: 2;
 }
 
-.ely-titre {
+.luth-ely-titre {
 	width: 200px;
 	margin-left: 250px;
     margin-top: 20px;
@@ -51,7 +51,7 @@
     z-index: 2;
 }
 
-h2 {
+.luth-ely-corps h2 {
 	padding-left: 3px;
     box-sizing: border-box;
     z-index: 2;
@@ -61,12 +61,12 @@ h2 {
     text-shadow: #5FB3E7 2px 3px;
 }
 
-.ely-typo {
+.luth-ely-typo {
 	font-family: "Courier New";
     font-weight: bold;
 }
 
-.ely-butt {
+.luth-ely-butt {
 	width: 25%;
     padding: 10px;
 	margin: 0px 10px 20px;
@@ -79,13 +79,13 @@ h2 {
     text-decoration: none;
 }
 
-.ely-butt:hover {
+.luth-ely-butt:hover {
 	text-shadow: 1px 1px #373045;
     border: 2px solid #d5af41;
     background: #9fae63;
 }
 
-.ely-txt {
+.luth-ely-txt {
 	width: 95%;
     overflow: auto;
     box-sizing: border-box;
@@ -94,36 +94,36 @@ h2 {
     z-index: 1;
     border-left: 4px double #d5af41;
     border-right: 4px double #d5af41;
-	text-align: justify;
+    text-align: justify;
     color: #373045;
     background-color: rgba(255,255,255, 0.9);
 }
 
-.ely-txt a {
+.luth-ely-txt a {
 	color: #5FB3E7;
     text-decoration: none;
 }
-.ely-txt a:visited {
+.luth-ely-txt a:visited {
 	color: #9fae63;
 }
-.ely-txt a:hover {
+.luth-ely-txt a:hover {
 	font-weight: bold;
 }
 
-.ely-staff {
+.luth-ely-staff {
 	text-align: right;
 	color: #d5af41;
 }
 
-.ely-cred {
+.luth-ely-cred {
 	color: white;
     text-shadow: 1px 1px #5FB3E7;
     font-size: 12px;
 }
 
-.fa-brands {
+.luth-fa-brands {
 	color: #9fae63;
 }
-.fa-brands:hover {
+.luth-fa-brands:hover {
 	color: #d5af41;
 }
