@@ -1,8 +1,6 @@
 @font-face {
-    font-family: "ThunderKingdom";
-	src: url("https://King-Krow.github.io/coding-trash/Thunder%20Kingdom.ttf");
-    font-weight: normal;
-    font-style: normal;
+    font-family: "ThunderKingdom"; src: url("https://King-Krow.github.io/coding-trash/Thunder%20Kingdom.ttf");
+    font-weight: normal; font-style: normal;
 }
 
 
@@ -17,12 +15,9 @@
     border-radius: 15px;
 }
 
-.luth-ely-tup {
-	position: relative;
-}
+.luth-ely-tup {position: relative;}
 
-#luth-ely-ban {
-	width: 100%;
+#luth-ely-ban {width: 100%;
     margin: auto;
     box-sizing: border-box;
     border-radius: 15px 15px 0 0;
@@ -61,13 +56,9 @@
     text-shadow: #5FB3E7 2px 3px;
 }
 
-.luth-ely-typo {
-	font-family: "Courier New";
-    font-weight: bold;
-}
+.luth-ely-typo {font-family: "Courier New"; font-weight: bold;}
 
-.luth-ely-butt {
-	width: 25%;
+.luth-ely-butt {width: 25%;
     padding: 10px;
 	margin: 0px 10px 20px;
     display: inline-block;
@@ -77,6 +68,7 @@
     background: #373045;
     font: small-caps bold 18px "ThunderKingdom";
     text-decoration: none;
+	z-index: 2;
 }
 
 .luth-ely-butt:hover {
@@ -99,31 +91,13 @@
     background-color: rgba(255,255,255, 0.9);
 }
 
-.luth-ely-txt a {
-	color: #5FB3E7;
-    text-decoration: none;
-}
-.luth-ely-txt a:visited {
-	color: #9fae63;
-}
-.luth-ely-txt a:hover {
-	font-weight: bold;
-}
+.luth-ely-txt a {color: #5FB3E7; text-decoration: none;}
+.luth-ely-txt a:visited {color: #9fae63;}
+.luth-ely-txt a:hover {font-weight: bold;}
 
-.luth-ely-staff {
-	text-align: right;
-	color: #d5af41;
-}
+.luth-ely-staff {text-align: right; color: #d5af41;}
 
-.luth-ely-cred {
-	color: white;
-    text-shadow: 1px 1px #5FB3E7;
-    font-size: 12px;
-}
+.luth-ely-cred {color: white; text-shadow: 1px 1px #5FB3E7; font-size: 12px;}
 
-.luth-fa-brands {
-	color: #9fae63;
-}
-.luth-fa-brands:hover {
-	color: #d5af41;
-}
+.luth-fa-brands {color: #9fae63;}
+.luth-fa-brands:hover {color: #d5af41;}
