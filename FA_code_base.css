@@ -1382,11 +1382,15 @@ li.row:hover dd {
 	 }
 
 .hierarchy{
- position: relative;
-  z-index:2;
-  font-size: 0.3rem;
-  overflow: auto
-}
+	position: relative;
+	z-index:2;
+	overflow: auto;
+	border: none;
+	display: inline;
+	font-size: 0.3rem;
+	text-transform: none;
+	}
+
 .btn-collapse {
 	cursor: pointer;
 	opacity: 1;
