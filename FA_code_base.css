@@ -240,7 +240,7 @@ h3 a:hover, .h3 a:hover {
 	margin-top: 8px;
 	 }
 div[class*='post--'] .postbody table,div[class*='post--'] .postbody td,#preview .postbody  table,#preview .postbody td{
-	border: 1px solid #444!important;
+	border: 1px solid #444;
 	}
 .table-title, .table-title h2 {
 	display: inline;
@@ -1632,17 +1632,17 @@ div.mes-txt ul {
 	vertical-align: 3px;
 	 }
 .vote .ion-plus-circled {
-	color: #4CAF50 !important;
+	color: #4CAF50;
 	margin-right: 17px;
 	 }
 .vote .ion-plus-circled:hover, .vote .ion-plus-circled:active {
-	color: #4CAF50 !important;
+	color: #4CAF50;
 	 }
 .vote .ion-minus-circled {
-	color: #F44336 !important;
+	color: #F44336;
 	 }
 .vote .ion-minus-circled:hover, .vote .ion-minus-circled:active {
-	color: #F44336 !important;
+	color: #F44336;
 	 }
 .vote-bar {
 	display: inline-block;
