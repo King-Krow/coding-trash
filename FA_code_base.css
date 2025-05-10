@@ -1288,12 +1288,12 @@ ul.topiclist li {
 	margin: 0;
 	 }
 ul.forums li.row dl {
-	background-position: left 24px top 50% !important;
+	background-position: left 0px top 50%!important;
 	min-height: 150 px;
 	padding: 0;
 	position: relative;
-	background-size: 33px 33px !important;
-	 }
+	background-size:100px 125px!important;
+	}
 ul.topiclist dt,ul.topiclist dd.dterm {
 	display: block;
 	float: left;
@@ -1322,8 +1322,8 @@ ul.forums {
 	transition-duration: 360ms;
 	 }
 ul.forums dl.icon dd.dterm > div {
-	margin-left: 63px !important;
-	 }
+	margin-left: 90px!important;
+	}
 li.header dl.icon {
 	min-height: 0;
 	 }
@@ -1380,12 +1380,13 @@ li.row:hover dd {
 .mod-text {
 	font-weight: 500;
 	 }
-.hierarchy {
-	border: none;
-	display: inline;
-	font-size: 1.3rem;
-	text-transform: none;
-	 }
+
+.hierarchy{
+ position: relative;
+  z-index:2;
+  font-size: 0.3rem;
+  overflow: auto
+}
 .btn-collapse {
 	cursor: pointer;
 	opacity: 1;
@@ -1670,7 +1671,7 @@ div.mes-txt ul {
 
 /* dl dt dd----------------------------------------------*/
 dd.lastpost {
-	font-size: 1.3rem;
+	font-size: 1rem;
 	line-height: 20px;
 	padding: 18px !important;
 	width: 32%;
